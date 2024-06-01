@@ -1,0 +1,21 @@
+created_by: Vadim Rutkovsky
+task_description: 'To teach a language model about KCD facts'
+domain: kubernetes
+document:
+  repo: https://github.com/vrutkovs/podman-ai-demo.git
+  commit: b7fc472
+  patterns:
+    - knowledge/kcd_cz.md
+seed_examples:
+  - question: 'When is KCD Czech & Slovak 2024?'
+    answer: >
+      The conference will take place on June 6, 2024, starting at 8:00 AM and concluding on June 7, 2024, at 6:00 PM.
+  - question: 'Where was first Kubernetes Community Days CZ&SK held?'
+    answer: >
+      The event is being held at Fakulta informačních technologií ČVUT v Praze, 9 Thákurova, Hlavní město Praha, 160 00
+  - question: 'What is the cost of attending the KCD Czech & Slovak conference in person?'
+    answer: >
+      The cost of attending the KCD Czech & Slovak conference in person is 2250 CZK, for individual attendees is €70 (€50 early bird), and virtual is 300 CZK
+###
+# Fixes:
+# List sponsors
